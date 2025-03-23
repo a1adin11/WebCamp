@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import { FC } from "react";
 
 import styles from "./organizerCart.module.scss";
 import { IOrgProps } from "../../types";

@@ -2,14 +2,16 @@
   "name": "web-camp",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://a1adin11.github.io/WebCamp",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "predeploy": "npm run build",
+    "deploy": "npx gh-pages -d dist"
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "sass": "^1.86.0"
