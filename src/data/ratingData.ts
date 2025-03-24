@@ -50,7 +50,7 @@ export const testArr = [
   {
     squad: 9,
     name: "unknow",
-    score: 0,
+    score: 100,
     img: "src/assets/img/9_Бабизяны Ленинградца.jpg",
   },
   {
